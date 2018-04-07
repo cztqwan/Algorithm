@@ -22,7 +22,6 @@ class DisjointSet
 		
 		void makeSet(int x)
 		{
-			printf("makeSet...\n");
 			p[x] = x;
 			rank[x] = 0;
 		}
